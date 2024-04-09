@@ -1,0 +1,2 @@
+1.Tienes 15 segundos para encontrar las cartas que son pares antes de que se acabe el tiempo y pierdas y mostrará su respectivo puntaje
+2.Si encuentras los pares antes de que se termine el tiempo ganarás y se mostrará el puntaje.
