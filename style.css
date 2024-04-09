@@ -1,0 +1,79 @@
+body{
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto", sans-serif;
+}
+.titulo{
+    color: #660000;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.p1,.p2{
+    text-align: center;
+    color: black;
+}
+.card1,.card2{
+    width: 100px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 580px;
+}
+.lascartas{
+    margin-left: 235px;
+}
+.carta {
+    width: 170px;
+    height: 220px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 2px 4px 6px 3px rgba(0, 0, 0, 0.3);
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 500ms linear;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+  
+.carta.volteo {
+    transform: rotateY(180deg);
+}
+.carta.volteotodos {
+    transform: rotateY(180deg);
+}
+
+.cara,
+.atras {
+    padding: 0.5em;
+    border-radius: 10px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-content: center;
+    backface-visibility: hidden;
+}
+  
+.cara {
+    font-size: 20px;
+    color: wheat;
+    background-color: #7C3030;
+}
+
+.cara img{
+    margin-left: 15px;
+    width: 50px;
+    height: auto;
+
+}
+.atras {
+    transform: rotateY(180deg);
+}
+.atras img{
+    width: 170px;
+    height: 220px;
+    border-radius: 10px;
+}
